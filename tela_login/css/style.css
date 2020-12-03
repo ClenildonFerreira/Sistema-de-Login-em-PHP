@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../img/logo.jpg);
+	background-position: 50% 70%;
+	color: #fff;
+	font-family: "Open Sans",sans-serif;
+
+}
+
+.img{
+	display: block;
+    margin: 0 auto;
+}
+
+input{
+	display: flex;
+	height: 45px;
+	width: 380px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 3px 3px 3px 3px;
+	text-align: center;
+	align-items: center;
+	background-color:rgb(255, 255, 255, 0.20);
+	outline: none;
+
+}
+
+#corpo_form{
+	width: 420px;
+	margin: 100px auto 0px auto;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_entra{
+	display: block;
+    margin: 0 auto;
+    background-color: #FF0066;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+}
+
+h1{
+	padding:10px;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+   opacity: 0.5;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff; 
+   opacity: 0.5; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff; 
+   opacity: 0.5; 
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+   opacity: 0.5;
+}
